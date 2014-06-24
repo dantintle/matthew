@@ -1,13 +1,151 @@
+
+<!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<title></title>
 
-	<link type='text/css' rel='stylesheet' href='style.css'/>
-	<title>Jaclyn's Site</title>
 </head>
+
 <body>
+	<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<a href="#" class="navbar-brand">Hillsdale United Nursery School</a>
 
-<div>Hey this is some stuff in the body.  Changed some more stuff.</div>
+				<button class="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse">Menu
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<div class="collapse navbar-collapse navHeaderCollapse">
+
+					<ul class="nav nav pull-right navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li class ="dropdown">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Staff <b class ="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Teachers</a></li>
+								<li><a href="#">Teacher Assistants</a></li> 
+								<li><a href="#">Office</a></li>
+
+						</li>
+						</ul>
+						<li><a href="#">Programs</a></li>
+						<li><a href="#">News & Events</a></li>
+						<li><a href="#contact" data-toggle = "modal">Contact</a></li>
+					</ul>
+
+				</div>
+
+			</div>
+	</div>
 
 
+			<div class="container">
+			<div class="jumbotron text-center">
+				
+
+			</div>
+			</div>
+
+			<div class = "container">
+			<div class = "row">
+						<div class = "col-md-3">
+						<h3>About Us</h3>
+						<p>
+						</p>
+						<a href = "#" class = "btn btn-success">Read More</a>
+
+						</div>
+
+						<div class = "col-md-3">
+						<h3>Programs</h3>
+						<p>
+						
+						</p>
+						<a href = "#" class = "btn btn-success">Learn More</a>
+
+						</div>
+
+						<div class = "col-md-3">
+						<h3>Staff</h3>
+						<p>
+						   
+						</p>
+						<a href = "#" class = "btn btn-success">Meet Us!</a>
+
+						</div>
+
+						<div class = "col-md-3">
+						<h3>Contact Us</h3>
+				
+						</a>
+						<a href = "#contact" data-toggle = "modal" class = "btn btn-success">Say Hi!</a>
+
+						</div>
+
+
+			</div>
+			</div>
+
+			<div class = "navbar navbar-inverse navbar-fixed-bottom">
+					<div class= "container">
+				
+					<p class = "navbar-text pull-left">Site built by Dan Tintle</p>
+					<!-- <a href = "http://www.dantintle.com" class = "navbar-btn btn-danger btn pull-right">Check Out His Work</a> -->
+
+					</div>
+
+			</div>
+
+
+
+			<div class = "modal fade" id="contact" role="dialog">
+			<div class = "modal-dialog">
+				<div class = "modal-content">
+						<div class ="modal-header">
+						<h4>
+						Contact HUNS
+						</h4>
+
+						<form action="" class="form-horizontal" role="form" placeholder="Email">
+						<div class="form-group">
+						<label for="inputName3" class="col-sm-2 control-label">Name</label>
+						<div class="col-sm-10"><input type="name" class="form-control" id="inputName3"></div>
+						</div>
+						<div class="form-group">
+   						<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+   						<div class="col-sm-10">
+						<input type="email" class="form-control" id="inputEmail3">
+   						</div>
+ 						</div>
+						<div class="form-group">
+   						<label for="message" class="col-sm-2 control-label">Message</label>
+   						<div class="col-sm-10">
+    						 <textarea class="form-control" rows="7"></textarea>
+   						</div>
+ 						</div>
+						</form>
+						</div>
+
+							<div class = "modal-footer">
+							<a class = "btn btn-success pull-left" data-dismiss="modal">Send</a>
+							<a class = "btn btn-danger pull-right" data-dismiss="modal">Close</a>
+
+							</div>
+
+					</div>
+				</div>
+			</div>
+			</div>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
