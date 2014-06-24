@@ -1,0 +1,15 @@
+html, body, p, nav {
+  margin: 0;
+  padding: 0;
+  color: none; }
+
+div {
+  background-color: black !important;
+  color: yellow;
+  height: 100%;
+  width: 100%; }
+
+nav {
+  background-color: yellow;
+  font-family: sans-serif;
+  font-color: black; }
